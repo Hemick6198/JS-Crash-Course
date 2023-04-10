@@ -1,5 +1,10 @@
-function convertCelsiusToFahrenheit(celsius) {
-    return celsius * 1.8 + 32;
+let grades = ['FAIL', 'A+', 'B' ]
+let goodGrades = []
+
+for (let i = 0; i < grades.length; ++i) {
+    if (grades[i] !== 'FAIL') {
+        goodGrades.push(grades[i]);
+    }
 }
 
-console.log(convertCelsiusToFahrenheit(10));
+console.log(goodGrades)
